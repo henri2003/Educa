@@ -2,36 +2,43 @@
 
  @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
 
- *{
+ * {
    margin: 0px;
    padding: 0px;
    width: auto;
  }
 
- header{
-   height: 100px;
+ header {
+   height: 120px;
    background-color: #663AB5;
  }
 
-  h1{
-  padding: 10px 190px;
+ h1 {
+   padding-top: 30px;
+   padding-left: 190px;
    color: rgb(253, 218, 4);
  }
- 
+
+ nav{
+  display: inline-flex;
+ }
 
  ul {
-  display :flex;
-  list-style: none;
-  margin-top: px;
-  border: solid 2px rgb(82, 46, 145);
+   display: inline-flex;
+   list-style: none;
+   padding-top: 10px;
+   padding-left: 120px;
+   border-style: radius;
+   border-width: 10px;
+   border-color: black;
 
  }
 
 
- a{
-  color: #fff;
-  text-decoration: none;
-  padding-left: 15px;
-  font: 18px "kanit";
-   
+ a {
+   color: #fff;
+   text-decoration: none;
+   padding-left: 15px;
+   font: 18px "kanit";
+
  }
