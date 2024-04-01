@@ -11,6 +11,8 @@
 
 
  header {
+   display: flexbox;
+  
    height: 110px;
    background-color: #663AB5;
  }
@@ -43,7 +45,7 @@
  .pesquisa {
    display: inline-flex;
    position: relative;
-   top: -85px;
+   top: -65px;
    left: 900px;
    padding: 10px 35px 10px 10px;
    background-color: #ffff;
@@ -62,7 +64,7 @@
    list-style: none;
    position: relative;
    text-align: left;
-   top: -80px;
+   top: -60px;
    left: 150px;
    padding: 10px 35px 10px 10px;
    border-radius: 30px;
