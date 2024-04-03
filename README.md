@@ -1,2 +1,1 @@
-# Educa
- Site feito com o propósito de ensinamento.
+Site criado com o próposito de aprendizado .
