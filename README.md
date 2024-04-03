@@ -1,1 +1,1 @@
-Site criado com o próposito de aprendizado .
+Site criado com o próposito de aprendizado.
