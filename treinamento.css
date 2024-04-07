@@ -48,8 +48,8 @@
  h1 {
 
    font-family: "Tauri";
-   padding-top: 10px;
-   padding-bottom: 30px;
+   padding-top: 15px;
+   padding-bottom: 20px;
    padding-left: 230px;
    color: rgb(253, 218, 4);
  }
@@ -148,7 +148,7 @@
    font-size: 16px;
    line-height: 30px;
    padding: 15px 0px 25px 15px;
-   max-width: 400px;
+   max-width: 350px;
 
  }
 
