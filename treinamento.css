@@ -16,10 +16,7 @@
 
 
  body {
-
-   
-   
-
+  
    background-color: #a2a0a049;
 
  }
@@ -28,55 +25,69 @@
 
 
  header {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
+   display: flexbox;
+   grid-template-columns: 1fr;
+   grid-template-rows: 30px 30px 30ox 30px;
    max-width: 1600px;
-   min-height: 120px;
+   min-height: 110px;
    background-color: #663AB5;
  }
 
 
- .botao {
-   width: 40px;
-   height: 40px;
-   border-radius: 100%;
-   background-color: #663AB5;
+  .botao{
+   width: 45px;
+   height: 45px;
+   background-image: url(imagens/icons8-pessoa-do-sexo-masculino-64\ \(1\).png);
+   background-repeat: no-repeat;
+   background-position: center;
+   border-radius: 50px; 
+   background-color: rgb(82, 46, 145) ;
+  }
 
+  .inline{
+    position: relative;
+    top: -2px;
+    left: 960px;
+    display: inline-block;
+  }
 
- }
+ 
 
 
  h1 {
-
+   
+   position: relative;
+   top: 25px;
+   left: 300px;
    font-family: "Tauri";
    color: rgb(253, 218, 4);
+  
  }
 
 
 
-nav{
- 
-}
-
 
  .pesquisa {
- 
    width: 150px;
    height: 30px;
-  
+   position: relative;
+   top: -20px;
+   left: 75em;
+   padding: 0px 30px 0px 5px;
+   border-radius: 20px;
    background-color: #ffff;
  }
 
 
 
 
-
-
  ul {
-   display: flex;
+   display: inline-flex;
+   position: relative;
+   top: -10px;
+   left: 200px;
+   padding: 5px 40px 5px 10px;
    list-style: none;
-   padding: 5px 30px 5px 5px;
    border-radius: 30px;
    background-color: rgb(82, 46, 145);
 
@@ -103,33 +114,44 @@ nav{
 
 
  main {
-    display: grid;
-    grid-template-columns: 600px 500px ;
-    gap: 20px;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
+   display: grid;
+   grid-template-columns: 700px 350px;
+   gap: 50px;
+   justify-content: center;
+   width: 100%;
+   height: 100%;
 
  }
 
 
 
- .rei{
-  margin-top: 50px; 
-  border-radius: 20px;
-  background-color: #fff;
- 
- }
-
-
-
- .principe{
-  margin-top: 50px;
-  border-radius: 20px;
-  max-height: 500px;
-  background-color: #fff;
+ .principal {
+   margin-top: 30px;
+   border-radius: 20px;
+   background-color: #fff;
 
  }
+
+
+
+ .secundario {
+   display: grid;
+   grid-template-columns: 350px;
+   grid-template-rows: 30px 30px 30px 30px 30px 30px 30px  ;
+   margin-top: 50px;
+   border-radius: 20px;
+   max-height: 500px;
+   background-color: #fff;
+
+ }
+
+ table{
+  
+  border-radius:  10px 10px 0px 1px ;
+  
+
+ }
+
 
 
 
