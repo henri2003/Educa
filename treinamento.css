@@ -24,7 +24,7 @@
 
  header {
    display: flexbox;
-   min-width: 1600px;
+   min-width: 1500px;
    min-height: 110px;
    margin-bottom: 60px;
    background-color: #663AB5;
@@ -53,7 +53,7 @@
 
 
 
- h1 {
+ header>h1 {
    display: inline;
    position: relative;
    top: -5px;
@@ -110,12 +110,11 @@
 
  main {
    display: grid;
+   width: 100%;
+   height: 100%;
    grid-template-columns: 700px 350px;
    gap: 50px;
    justify-content: center;
-   width: 100%;
-   height: 100%;
-
  }
 
 
@@ -130,7 +129,7 @@
 
  .secundario {
    display: grid;
-   max-height: 470px;
+   max-height: 520px;
    max-width: 350px;
    position: relative;
    top: 35px;
@@ -141,40 +140,94 @@
  }
 
 
-
- .secundario div {
-   min-height: 30px;
-   padding-top: 15px;
-   padding-left: 10px;
+ .secundario>div {
+   min-height: 22px;
+   padding: 15px 10px;
    border: solid 1px #00000021;
  }
 
 
 
- .Primeiro {
+ .secundario>.Primeiro {
    font-size: 18px;
-   font-family: Arial, Helvetica, sans-serif;
    border-radius: 16px 16px 0px 0px;
-   color: #000;
- }
-
-
-
- .secundario a {
-
-   text-decoration: none;
-   font-family: Arial, Helvetica, sans-serif;
    color: #031874;
  }
 
 
 
 
- article {
+ .secundario>.Ultimo {
+   display: grid;
+   grid-template-columns: 150px;
+   grid-template-rows: 1fr 1fr 1fr;
+   grid-template-areas: 'area1 area1' 'area2 area3' 'area4 area4';
+   gap: 10px;
+   color: #031874;
+ }
+
+ .gridultimo1 {
+   font-size: 17px;
+   grid-area: area1;
+ }
+
+ .gridultimo2 {
+   max-width: 135px;
+   max-height: 20px;
+   border: solid rgba(0, 0, 0, 0.251) 1px;
+   padding: 2px;
+   background-color: #fafafa4f;
+   grid-area: area2;
+ }
+
+ .gridultimo3 {
+   max-width: 135px;
+   max-height: 20px;
+   border: solid rgba(0, 0, 0, 0.251) 1px;
+   padding: 2px;
+   background-color: #fefefe4f;
+   grid-area: area3;
+ }
+
+ .gridultimo4 {
+   max-width: 55px;
+   max-height: 20px;
+   border: solid rgba(0, 0, 0, 0.251) 1px;
+   padding: 2px;
+   background-color: #ffffff4f;
+   grid-area: area4;
+ }
+
+
+
+
+
+ .secundario a {
+   text-decoration: none;
+   font-family: Arial, Helvetica, sans-serif;
+   color: #031874;
+ }
+
+
+ .Ultimo>a {
+
    font-size: 15px;
+
+ }
+
+ .corsecundaria:hover {
+   transition: 2s;
+   background-color: #03187442;
+ }
+
+
+
+ article p {
+   font-size: 16px;
+   line-height: 30px;
+   padding: 15px 0px 25px 15px;
+   max-width: 350px;
    font-family: "Roboto";
-
-
  }
 
 
@@ -184,13 +237,7 @@
 
  }
 
- article p {
-   font-size: 16px;
-   line-height: 30px;
-   padding: 15px 0px 25px 15px;
-   max-width: 350px;
 
- }
 
  .lista {
    display: inline-flex;
