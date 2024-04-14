@@ -24,7 +24,7 @@
 
  header {
    display: flex;
-   min-width: 1560px;
+   min-width: 1500px;
    min-height: 120px;
    margin-bottom: 60px;
    background-color: #663AB5;
@@ -32,12 +32,12 @@
 
 
  .botao {
-   display: inline-block;
+   display: inline-flex;
    width: 40px;
    height: 40px;
-   position: relative;
-   top: 30px;
-   left: 550px;
+   position: absolute;
+   top: 32px;
+   left: 996px;
    border-radius: 50px;
    background-repeat: no-repeat;
    background-position: center;
@@ -46,10 +46,10 @@
  }
 
  .botao:hover{
-  transition: 0s;
+  transition: 1s;
   border-style: solid;
   border-color: #ffff;
-  border-width: 1px;
+  border-width: 2px;
  }
 
 
@@ -61,7 +61,7 @@
  h1 {
    display: inline;
    position: relative;
-   top:  20px;
+   top:  30px;
    left: 350px;
    font-family: "Tauri";
    color: rgb(253, 218, 4);
@@ -90,7 +90,7 @@
    max-height: 25px;
    position: relative;
    top: 85px;
-   left: -230px;
+   left: -200px;
    list-style: none;
    padding: 1px 40px 1px 25px ;
    border-radius: 30px;
