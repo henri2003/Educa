@@ -1,1 +1,1 @@
-Site criado com o próposito de aprendizado.
+Site criado apenas com o propósito de adquirir conhecimento sobre estilização.
