@@ -37,7 +37,7 @@
    height: 40px;
    position: absolute;
    top: 32px;
-   left: 996px;
+   left: 955px;
    border-radius: 50px;
    background-repeat: no-repeat;
    background-position: center;
@@ -75,7 +75,7 @@
    height: 30px;
    position: relative;
    top: 30px;
-   left: 790px;
+   left: 750px;
    padding: 4px 30px 4px 5px;
    border-radius: 20px;
    background-color: #ffff;
@@ -238,17 +238,30 @@
  article p {
    font-size: 16px;
    line-height: 30px;
-   padding: 15px 0px 25px 15px;
+   padding: 10px 0px 25px 15px;
    max-width: 350px;
    font-family: "Roboto";
  }
 
+ .strong{
+   font-size: 25px;
+ }
 
  article h2 {
    font-size: 40px;
    padding: 10px;
-
  }
+
+ article h3{
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 30px 10px ;
+ }
+
+.títulos{
+ font-size: 20px;
+ padding: 25px 0px 0px 15px ;
+}
 
 
 
@@ -260,9 +273,16 @@
 
 
  article li {
-   padding: 10px 0px 10px 10px;
+   padding: 10px 0px 10px 20px;
 
  }
+
+ article li a {
+  font-size: 16px;
+  color: #000;
+ }
+  
+ 
 
 
  .largura {
