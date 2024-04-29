@@ -32,7 +32,7 @@
 
      .principal{
       
-      min-width: 450px;
+      min-width: 300px;
      }
 
    
@@ -64,6 +64,7 @@
    grid-template-areas: 'h1header pesquisa botao'   ;
    grid-template-columns: 2fr 1fr 1fr ;
    grid-template-rows: 1fr;
+   min-width: 388px;
    min-height: 80px ;
  }
 
