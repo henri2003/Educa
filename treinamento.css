@@ -132,7 +132,6 @@
 
  nav > ul {
    display: flex;
-  
    max-width: 1000px;
    min-height: 30px;
    list-style: none;
@@ -150,7 +149,7 @@
     font-family: "Anton";
     color: #fff;
     text-decoration: none;
-    padding-left: 20px;
+    margin-left: 20px;
   }
 
 
