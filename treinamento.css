@@ -32,7 +32,7 @@
 
      .principal{
       
-      min-width: 300px;
+      width: auto;
      }
 
    
@@ -173,6 +173,7 @@
 
  .principal {
    max-width: 700px;
+   min-width: ;
    justify-self: end;
    border-radius: 20px;
    background-color: #fff;
