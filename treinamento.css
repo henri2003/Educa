@@ -157,7 +157,7 @@
    display: grid;
    height: auto;
    grid-template-columns: 2fr 1fr ;
-   gap: 40px;
+ 
    margin-top: 40px;
  
  
@@ -168,7 +168,9 @@
  .principal {
    display: grid;
    max-width: 600px;
+   min-width: 450px;
    justify-self: end;
+   margin-right: 40px;
    border-radius: 20px;
    background-color: #fff;
 
